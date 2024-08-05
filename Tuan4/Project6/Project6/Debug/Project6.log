@@ -1,3 +1,4 @@
 ﻿  Source.cpp
-C:\2\Tuan4\Tuan4\Project6\Project6\Source.cpp(41,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\2\Tuan4\Tuan4\Project6\Project6\Source.cpp(12,32): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\2\Tuan4\Tuan4\Project6\Project6\Source.cpp(52,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
   Project6.vcxproj -> C:\2\Tuan4\Tuan4\Project6\Debug\Project6.exe

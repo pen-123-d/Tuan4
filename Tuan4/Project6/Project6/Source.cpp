@@ -3,6 +3,19 @@
 using namespace std;
 
 
+double Bai_Mot_Cham_4(double n)
+{
+	if (n==0)
+	{
+		return 1;
+	
+	}
+	else
+	{
+		return Bai_Mot_Cham_4(n - 1) + (1 / (2*n + 1));
+	}
+}
+
 double Bai_Mot_Cham_3 (double n)
 {
 	if (n==1)
@@ -37,8 +50,9 @@ int main()
 	cin >> n;
 	cout << "De quy tong" << endl;
 	cout << Tong(n) << endl;
-	cout << "Bai 1.3 De quy phan so " << endl;
+	cout << "Bai 1.3 De quy n/n+1 " << endl;
 	cout << Bai_Mot_Cham_3(n)<< endl;
-
+	cout << "Bai 1.4 De quy 1/2n+1 " << endl;
+	cout << Bai_Mot_Cham_4(n) << endl;
 	system("pause");
 }
